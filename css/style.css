@@ -23,8 +23,9 @@ main{
 .container{
     background-color: white;
     width: 870px;
-    height: 679px;
+    height: 620px;
     padding: 30px;
+    border-radius: 7px;
 }
 player{
      display: flex;
@@ -40,5 +41,42 @@ player img{
 }
 hr{
     border: 1px solid #D1D1D1;
-    
+}
+/* .................
+   top blogs styles 
+....................*/
+.top-blogs{
+    margin-top: 33px;
+}
+.blog{
+    display: flex;
+
+}
+.blog .thumbnail img{
+    width: 177;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+    margin-top: -1px;
+    width: 200px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+    margin-top: -9px;
+}
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    grid-row-gap: 26px;
 }
